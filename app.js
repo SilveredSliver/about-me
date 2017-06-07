@@ -3,7 +3,7 @@
 var userName = prompt('Hi there, user! What is your name?');
 
 var userGreeting = prompt('Hello, ' + userName + '! Are you ready to play a guessing game about me? It will only be 5 questions.');
-  if (userGreeting.trim().toLowerCase() === 'yes'|| userGreeting.trim().toLowerCase() === 'y') {
+  if (userGreeting.trim().toLowerCase() === 'yes' || userGreeting.trim().toLowerCase() === 'y') {
     alert ('Hurray! Let us get started!');
   } else if (userGreeting.trim().toLowerCase() === 'no' || userGreeting.trim().toLowerCase() === 'n') {
     alert ('Too bad! We are playing anyway!');
