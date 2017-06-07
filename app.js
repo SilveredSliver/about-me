@@ -3,9 +3,9 @@
 var userName = prompt('Hi there, user! What is your name?');
 
 var userGreeting = prompt('Hello, ' + userName + '! Are you ready to play a guessing game about me? It will only be 5 questions.');
-  if (userGreeting.trim().toLowerCase() === 'yes', 'y') {
+  if (userGreeting.trim().toLowerCase() === 'yes'|| userGreeting.trim().toLowerCase() === 'y') {
     alert ('Hurray! Let us get started!');
-  } else  if (userGreeting.trim().toLowerCase() === 'no', 'n') {
+  } else if (userGreeting.trim().toLowerCase() === 'no' || userGreeting.trim().toLowerCase() === 'n') {
     alert ('Too bad! We are playing anyway!');
   } else {
     alert ('I am going to take that as a yes');
@@ -13,9 +13,9 @@ var userGreeting = prompt('Hello, ' + userName + '! Are you ready to play a gues
 console.log('User input to prompt userGreeting was ' + userGreeting);
 
 var questionOne = prompt('Do you believe I am holding you here against your will?');
-  if (questionOne.trim().toLowerCase() === 'yes', 'y') {
+  if (questionOne.trim().toLowerCase() === 'yes' || questionOne.trim().toLowerCase() === 'y') {
     alert ('Hahahaha!! I would never do that to you, friend...?');
-  } else if (questionOne.trim().toLowerCase() == 'no', 'n') {
+  } else if (questionOne.trim().toLowerCase() == 'no', questionOne.trim().toLowerCase() == 'n') {
     alert ('Wow! You are a really trusting person! :D');
   } else {
     alert ('I am also going to take that as a no');
@@ -26,9 +26,9 @@ console.log('User input to prompt questionOne was ' + questionOne);
 //Trying something different with the alerts
 var computerResponse;
 var questionTwo = prompt('Do you believe this is a game?');
-  if (questionTwo.trim().toLowerCase() === 'yes', 'y') {
+  if (questionTwo.trim().toLowerCase() === 'yes' || questionTwo.trim().toLowerCase() === 'yes') {
     computerResponse = 'Ahahahahaha!';
-  } else if (questionTwo.trim().toLowerCase() === 'no', 'n') {
+  } else if (questionTwo.trim().toLowerCase() === 'no' || questionTwo.trim().toLowerCase() === 'n') {
     computerResponse = '...You are probably right!';
   } else {
     computerResponse = 'Too scared to guess, huh?';
@@ -36,9 +36,9 @@ var questionTwo = prompt('Do you believe this is a game?');
   console.log('User input to prompt questionTwo was ' + questionTwo);
 
 var questionThree = prompt('Do you feel safe?');
-  if (questionThree.trim().toLowerCase() === 'yes', 'y') {
+  if (questionThree.trim().toLowerCase() === 'yes' || questionThree.trim().toLowerCase() === 'y') {
     alert ('How quaint :)');
-  } else if (questionThree.trim().toLowerCase() === 'no', 'n') {
+  } else if (questionThree.trim().toLowerCase() === 'no' || questionThree.trim().toLowerCase() === 'n') {
     alert ('You must horribly troubled.');
   } else {
     alert ('You are very bad at responding to anything...');
@@ -46,9 +46,9 @@ var questionThree = prompt('Do you feel safe?');
 console.log('User input to prompt questionThree was ' + questionThree);
 
 var questionFour = prompt('Do you like coffee?');
-  if (questionFour.trim().toLowerCase() === 'yes', 'y') {
+  if (questionFour.trim().toLowerCase() === 'yes' || questionFour.trim().toLowerCase() === 'y') {
     alert ('Be careful of what you drink!');
-  } else if (questionFour.trim().toLowerCase() === 'no', 'n') {
+  } else if (questionFour.trim().toLowerCase() === 'no' || questionFour.trim().toLowerCase() === 'n') {
     alert ('...bummer...');
   } else {
     alert ('...You are not making this very fun, are you.');
@@ -56,9 +56,9 @@ var questionFour = prompt('Do you like coffee?');
 console.log('User input to prompt questionFour was ' + questionFour);
 
 var questionFive = prompt('Do you like icecream?');
-  if (questionFive.trim().toLowerCase() === 'yes', 'y') {
+  if (questionFive.trim().toLowerCase() === 'yes' || questionFive.trim().toLowerCase() === 'y') {
     alert ('Ok! Go outside and grab some!');
-  } else if (questionFive.trim().toLowerCase() === 'no', 'n') {
+  } else if (questionFive.trim().toLowerCase() === 'no' || questionFive.trim().toLowerCase() === 'n') {
     alert ('I am going to find you...');
   } else {
     alert ('You are boring! I am going to go play with someone else!');
