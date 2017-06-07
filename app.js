@@ -18,7 +18,7 @@ var questionOne = prompt('Do you believe I am holding you here against your will
   } else if (questionOne.trim().toLowerCase() == 'no', questionOne.trim().toLowerCase() == 'n') {
     alert ('Wow! You are a really trusting person! :D');
   } else {
-    alert ('I am also going to take that as a no');
+    alert ('I think I am going to take that as a no');
   }
 console.log('User input to prompt questionOne was ' + questionOne);
 
