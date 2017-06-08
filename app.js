@@ -23,15 +23,13 @@ var questionOne = prompt('Do you believe I am holding you here against your will
 console.log('User input to prompt questionOne was ' + questionOne);
 
 
-//Trying something different with the alerts
-var computerResponse;
 var questionTwo = prompt('Do you believe this is a game?');
   if (questionTwo.trim().toLowerCase() === 'yes' || questionTwo.trim().toLowerCase() === 'yes') {
-    computerResponse = 'Ahahahahaha!';
+    alert ('Ahahahahaha!');
   } else if (questionTwo.trim().toLowerCase() === 'no' || questionTwo.trim().toLowerCase() === 'n') {
-    computerResponse = '...You are probably right!';
+    alert ('...You are probably right!');
   } else {
-    computerResponse = 'Too scared to guess, huh?';
+    alert ('Too scared to guess, huh?');
   }
   console.log('User input to prompt questionTwo was ' + questionTwo);
 
